@@ -12,7 +12,7 @@ def get_header(app):
             html.Div(
                 [
                     html.Img(
-                        src=app.get_asset_url("sd.png"),
+                        src=app.get_asset_url("dash-financial-logo.png"),
                         className="logo",
                     ),
                     html.A(
@@ -25,7 +25,7 @@ def get_header(app):
             html.Div(
                 [
                     html.Div(
-                        [html.H5("Duo Esse Financial Index Fund Investor Shares")],
+                        [html.H5("Calibre Financial Index Fund Investor Shares")],
                         className="seven columns main-title",
                     ),
                     html.Div(
