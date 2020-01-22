@@ -12,7 +12,7 @@ def get_header(app):
             html.Div(
                 [
                     html.Img(
-                        src=app.get_asset_url("dash-financial-logo.png"),
+                        src=app.get_asset_url("sd.png"),
                         className="logo",
                     ),
                     html.A(
