@@ -13,7 +13,8 @@ This is an interactive, multi-page report which displays a variety of tables, bu
 
 ## Heroku 
 
- Click HERE >>> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dsindex.herokuapp.com/)
+  ### Guess what? Click on the button and find out! 
+  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dsindex.herokuapp.com/)
 
 
 
