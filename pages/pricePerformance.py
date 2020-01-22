@@ -161,7 +161,7 @@ def create_layout(app):
                                 [
                                     html.H6(
                                         [
-                                            "Average annual returns--updated monthly as of 02/28/2018"
+                                            "Average annual returns--updated monthly as of 11/30/2019"
                                         ],
                                         className="subtitle padded",
                                     ),
@@ -187,7 +187,7 @@ def create_layout(app):
                                 [
                                     html.H6(
                                         [
-                                            "After-tax returns--updated quarterly as of 12/31/2017"
+                                            "After-tax returns--updated quarterly as of 12/31/2018"
                                         ],
                                         className="subtitle padded",
                                     ),
