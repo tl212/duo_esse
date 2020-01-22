@@ -52,7 +52,7 @@ def get_menu():
     menu = html.Div(
         [
             dcc.Link(
-                "Executive Summary",
+                "Overview",
                 href="/dash-financial-report/executive summary",
                 className="tab first",
             ),
