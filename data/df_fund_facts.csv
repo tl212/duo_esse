@@ -1,7 +1,7 @@
-label,value
-Asset Class,Domestic Stock - General
-Category,Large Blend
-Expense ratio as of 04/27/2017,0.14%
-Minimum investment,"""$3,000"""
-Fund number,0040
-Fund advisor,Equity Index Group
+,label,value
+0,Asset Class,Domestic Stock - General
+1,Category,Large Blend
+2,Expense ratio as of 04/27/2019,0.19%
+3,Minimum investment,"""$3,250"""
+4,Fund number,0445
+5,Fund advisor,Equity Index Group
