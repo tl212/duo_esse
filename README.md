@@ -13,7 +13,7 @@ This is an interactive, multi-page report which displays a variety of tables, bu
 
 ## Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dsindex.herokuapp.com/)
 
 
 
