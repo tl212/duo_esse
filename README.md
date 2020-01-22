@@ -1,6 +1,6 @@
 # Duo Esse Financial Report
 
-A very simple and effective application that abstracts away all of the technologies and protocols required to build an interactive web-based application to bind a user interface around Python code. 
+A simple and effective application that abstracts away all of the technologies and protocols required to build an interactive web-based application to bind a user interface around Python code. 
 
 ## About the app
 
