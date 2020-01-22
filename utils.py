@@ -75,7 +75,7 @@ def get_menu():
                 className="tab",
             ),
             dcc.Link(
-                "Dataset",
+                "News",
                 href="/dash-financial-report/news-and-reviews",
                 className="tab",
             ),
