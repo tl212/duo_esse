@@ -12,20 +12,20 @@ def get_header(app):
             html.Div(
                 [
                     html.Img(
-                        src=app.get_asset_url("dash-financial-logo.png"),
+                        src=app.get_asset_url("future_leaders_logo.png"),
                         className="logo",
                     ),
                     html.A(
-                        html.Button("Learn More", id="learn-more-button"),
-                        href="https://plot.ly/dash/pricing/",
+                        html.Button("Tom Lee", id="learn-more-button"),
+                        href="https://github.com/tl212/final_p33",
                     ),
                 ],
-                className="row",
+                        className="row",
             ),
             html.Div(
                 [
                     html.Div(
-                        [html.H5("Calibre Financial Index Fund Investor Shares")],
+                        [html.H5("Danske Bank's Estonian Branch ML Activities Report")],
                         className="seven columns main-title",
                     ),
                     html.Div(
@@ -52,8 +52,8 @@ def get_menu():
     menu = html.Div(
         [
             dcc.Link(
-                "Overview",
-                href="/dash-financial-report/overview",
+                "Executive Summary",
+                href="/dash-financial-report/executive summary",
                 className="tab first",
             ),
             dcc.Link(
@@ -75,7 +75,7 @@ def get_menu():
                 className="tab",
             ),
             dcc.Link(
-                "News & Reviews",
+                "Dataset",
                 href="/dash-financial-report/news-and-reviews",
                 className="tab",
             ),

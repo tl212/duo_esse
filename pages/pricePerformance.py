@@ -65,7 +65,7 @@ def create_layout(app):
                                                     y=df_graph["Calibre Index Fund"],
                                                     line={"color": "#97151c"},
                                                     mode="lines",
-                                                    name="Calibre Index Fund",
+                                                    name="Hilux",
                                                 ),
                                                 go.Scatter(
                                                     x=df_graph["Date"],
@@ -74,7 +74,7 @@ def create_layout(app):
                                                     ],
                                                     line={"color": "#b5b5b5"},
                                                     mode="lines",
-                                                    name="MSCI EAFE Index Fund (ETF)",
+                                                    name="Polux",
                                                 ),
                                             ],
                                             "layout": go.Layout(
