@@ -79,7 +79,7 @@ def create_layout(app):
                                                         "3 Year",
                                                         "5 Year",
                                                         "10 Year",
-                                                        "41 Year",
+                                                        "20 Year",
                                                     ],
                                                     y=[
                                                         "21.67",
@@ -95,7 +95,7 @@ def create_layout(app):
                                                             "width": 2,
                                                         },
                                                     },
-                                                    name="Calibre Index Fund",
+                                                    name="Duo Esse Index Fund",
                                                 ),
                                                 go.Bar(
                                                     x=[
@@ -103,7 +103,7 @@ def create_layout(app):
                                                         "3 Year",
                                                         "5 Year",
                                                         "10 Year",
-                                                        "41 Year",
+                                                        "20 Year",
                                                     ],
                                                     y=[
                                                         "21.83",
@@ -184,17 +184,17 @@ def create_layout(app):
                                             "data": [
                                                 go.Scatter(
                                                     x=[
-                                                        "2008",
-                                                        "2009",
-                                                        "2010",
-                                                        "2011",
-                                                        "2012",
-                                                        "2013",
-                                                        "2014",
-                                                        "2015",
-                                                        "2016",
-                                                        "2017",
-                                                        "2018",
+                                                        "2020",
+                                                        "2021",
+                                                        "2022",
+                                                        "2023",
+                                                        "2024",
+                                                        "2025",
+                                                        "2026",
+                                                        "2027",
+                                                        "2028",
+                                                        "2029",
+                                                        "2030",
                                                     ],
                                                     y=[
                                                         "10000",
@@ -211,7 +211,7 @@ def create_layout(app):
                                                     ],
                                                     line={"color": "#97151c"},
                                                     mode="lines",
-                                                    name="Calibre Index Fund Inv",
+                                                    name="Duo Esse Index Fund Inv",
                                                 )
                                             ],
                                             "layout": go.Layout(
