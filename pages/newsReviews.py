@@ -1,25 +1,6 @@
 import dash_html_components as html
 from utils import Header
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-import plotly.graph_objs as go
-import dash_table
-import pathlib
-import pandas as pd
 
-# get relative data folder
-PATH = pathlib.Path(__file__).parent
-DATA_PATH = PATH.joinpath("../data").resolve()
-
-
-dk_data = pd.read_csv(DATA_PATH.joinpath("dk_data.csv"))
-
-## Colours
-color_1 = "#003399"
-color_2 = "#00ffff"
-color_3 = "#002277"
-color_b = "#F8F8FF"
 
 def create_layout(app):
     return html.Div(
@@ -27,70 +8,69 @@ def create_layout(app):
             Header(app),
             # page 6
             html.Div(
-            [
-                html.Div(
-                    [
-                        html.Div(
-                            [
-                                html.Div(
-                                    [
-                                        html.H6(
-                                            "Erat cras porta inceptos nibh sociis justo. Natoque mauris nunc etiam, dis quam, tempor consectetur ac \
-                                    Pulvinar nunc vitae dui elit hac ante, facilisi, primis nascetur. Non nostra torquent ipsum ac amet",
-                                            className="page-9h",
-                                        ),
-                                       # html.P(paragraph(), className="page-1i"),
-                                        #html.P(paragraph(), className="page-1i"),
-                                        html.H6(
-                                            "The report indicates US$ 2.9 billion in suspicious activities.r \
-                                        Baktelekom MMC was the mysterious largest contributor that used an account at IBA.",
-                                            className="page-6c",
-                                        ),
-                                        html.Div(
-                                            [
-                                                dash_table.DataTable(
-                                                    data=dk_data.to_dict(
-                                                        "records"
-                                                    ),
-                                                    columns=[
-                                                        {"id": c, "name": c}
-                                                        for c in dk_data.columns
-                                                    ],
-                                                    style_data_conditional=[
-                                                        {
-                                                            "if": {"row_index": "odd"},
-                                                            "backgroundColor": color_b,
-                                                        },
-                                                        {
-                                                            "if": {
-                                                                "column_id": "Quarter"
-                                                            },
-                                                            "backgroundColor": color_2,
-                                                            "color": "black",
-                                                        },
-                                                    ],
-                                                    style_header={
-                                                        "backgroundColor": color_1,
-                                                        "fontWeight": "bold",
-                                                        "color": "white",
-                                                    },
-                                                    fixed_rows={"headers": True},
-                                                    style_cell={"width": "150px"},
-                                                )
-                                            ],
-                                            className="page-1i",
-                                        ),
-                                    ],
-                                    className="eleven columns",
-                                )
-                            ],
-                            className="page-12a",
-                        )
-                    ],
-                    className="subpage",
-                )
-            ],
-            className="page",
-        ),
-    ]
-)
+                [
+                    # Row 1
+                    html.Div(
+                        [
+                            html.Div(
+                                [
+                                    html.H6("News", className="subtitle padded"),
+                                    html.Br([]),
+                                    html.Div(
+                                        [
+                                            html.P(
+                                                "10/25/16    The rise of indexing and the fall of costs"
+                                            ),
+                                            html.P(
+                                                "08/31/16    It's the index mutual fund's 40th anniversary: Let the low-cost, passive party begin"
+                                            ),
+                                        ],
+                                        style={"color": "#7a7a7a"},
+                                    ),
+                                ],
+                                className="row",
+                            ),
+                            html.Div(
+                                [
+                                    html.H6("Reviews", className="subtitle padded"),
+                                    html.Br([]),
+                                    html.Div(
+                                        [
+                                            html.Li("Launched in 1976."),
+                                            html.Li(
+                                                "On average, has historically produced returns that have far outpaced the rate of inflation.*"
+                                            ),
+                                            html.Li(
+                                                "Quantitative Equity Group, the fund's advisor, is among the world's largest equity index managers."
+                                            ),
+                                        ],
+                                        id="reviews-bullet-pts",
+                                    ),
+                                    html.Div(
+                                        [
+                                            html.P(
+                                                "Did you know? The fund launched in 1976 as First Index Investment Trust—the nation's first index fund available to individual investors."
+                                            ),
+                                            html.Br([]),
+                                            html.P(
+                                                "* The performance of an index is not an exact representation of any particular investment, as you cannot invest directly in an index."
+                                            ),
+                                            html.Br([]),
+                                            html.P(
+                                                "Past performance is no guarantee of future returns. See performance data current to the most recent month-end."
+                                            ),
+                                        ],
+                                        style={"color": "#7a7a7a"},
+                                    ),
+                                ],
+                                className="row",
+                            ),
+                        ],
+                        className="row ",
+                    )
+                ],
+                className="sub_page",
+            ),
+        ],
+        className="page",
+    )

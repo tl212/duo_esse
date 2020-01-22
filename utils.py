@@ -12,7 +12,7 @@ def get_header(app):
             html.Div(
                 [
                     html.Img(
-                        src=app.get_asset_url("future_leaders_logo.png"),
+                        src=app.get_asset_url("sd.png"),
                         className="logo",
                     ),
                     html.A(
@@ -25,7 +25,7 @@ def get_header(app):
             html.Div(
                 [
                     html.Div(
-                        [html.H5("Danske Bank's Estonian Branch ML Activities Report")],
+                        [html.H5("Duo Esse Index Fund Investor Shares")],
                         className="seven columns main-title",
                     ),
                     html.Div(
