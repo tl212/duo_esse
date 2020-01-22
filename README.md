@@ -10,3 +10,11 @@ This is an interactive, multi-page report which displays a variety of tables, bu
 
 - [Dash](https://dash.plot.ly/) - Main server and interactive components
 - [Plotly Python](https://plot.ly/python/) - Used to create the interactive plots
+
+## Heroku 
+
+  ### Guess what? Click on the button and find out! 
+  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dsindex.herokuapp.com/)
+
+
+
