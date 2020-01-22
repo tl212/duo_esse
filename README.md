@@ -13,7 +13,7 @@ This is an interactive, multi-page report which displays a variety of tables, bu
 
 ## Heroku 
 
-  ### Guess what? Click on the button and find out! 
+  #### Guess what? Click on the button and find out! 
   [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dsindex.herokuapp.com/)
 
 
