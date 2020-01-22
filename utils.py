@@ -16,8 +16,8 @@ def get_header(app):
                         className="logo",
                     ),
                     html.A(
-                        html.Button("Tom Lee", id="learn-more-button"),
-                        href="https://github.com/tl212/final_p33",
+                        html.Button("Click here for REPOSITORY", id="learn-more-button"),
+                        href="https://github.com/tl212/duo_esse",
                     ),
                 ],
                         className="row",
