@@ -257,7 +257,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.P(
-                                        "Calibre Index Fund seeks to track the performance of\
+                                        "Duo Esse Index Fund seeks to track the performance of\
                         a benchmark index that measures the investment return of large-capitalization stocks."
                                     ),
                                     html.P(
