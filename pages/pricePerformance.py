@@ -62,7 +62,7 @@ def create_layout(app):
                                             "data": [
                                                 go.Scatter(
                                                     x=df_graph["Date"],
-                                                    y=df_graph["Duo Esse index Fund"],
+                                                    y=df_graph["Duo Esse Index Fund"],
                                                     line={"color": "#97151c"},
                                                     mode="lines",
                                                     name="Duo Esse Index Fund",
