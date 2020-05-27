@@ -16,7 +16,7 @@ def get_header(app):
                         className="logo",
                     ),
                     html.A(
-                        html.Button("1", id="learn-more-button"),
+                        html.Button("123", id="learn-more-button"),
                         href="https://github.com/tl212/duo_esse",
                     ),
                 ],
