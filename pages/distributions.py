@@ -29,7 +29,7 @@ def create_layout(app):
                                     ),
                                     html.P(
                                         [
-                                            "Distributions for this fund are scheduled quaterly"
+                                            "Distributions for this fund are scheduled quarterly"
                                         ],
                                         style={"color": "#7a7a7a"},
                                     ),
