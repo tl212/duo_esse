@@ -33,7 +33,7 @@ def create_layout(app):
                                     html.Br([]),
                                     html.P(
                                         "\
-                                    This is a fictious financial report designed to only showcase core knowledge corelated to data analysis in the financial industry.  \
+                                    This is a fictitious financial report designed to only showcase core knowledge corelated to data analysis in the financial industry.  \
                                     The Duo Esse Index Fund is a low-cost way to gain diversified exposure \
                                     to the U.S. equity market. The fund offers exposure to 500 of the \
                                     largest U.S. companies, which span many different industries and \
